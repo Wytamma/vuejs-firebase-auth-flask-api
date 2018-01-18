@@ -69,6 +69,6 @@ class firebase:
 
     def create_custom_token(uid, developer_claims=None):
         token = firebase_admin.auth.create_custom_token(
-            uid, developer_claims=None, app=None
+            uid, developer_claims=None, app=firebase_app
             )
         return token
