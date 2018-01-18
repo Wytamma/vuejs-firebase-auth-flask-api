@@ -1,0 +1,7 @@
+*.pyc
+
+_passwords.py
+
+__pycache__
+
+firebase-adminsdk.json
