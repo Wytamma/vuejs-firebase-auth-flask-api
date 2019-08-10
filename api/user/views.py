@@ -19,7 +19,6 @@ def signup(email_address):
     token = generate_confirmation_token(email_address)
     url = f'{current_app.config["WEBAPP_BASE_URL"]}/auth/set-password?token={token}'
 
-    # Email is run as a task by zappa i.e. in a new lambda instance
     email(email_address,
           subject='Sign Up to vuejs-firebase-auth-flask-api',
           body=f'Click this link to sign up.\n\n{url}')

@@ -24,6 +24,6 @@ Commands:
 when you load localhost:8080 you'll be directed to a login page. click the link to create a new account. i made a design choice here... firebase won't verify email before you create an account. I use the flask backend to do email verification before account creation. enter details, get link, set password, login.
 
 ## production
-the idea is that the backend will be run on aws lambda using zappa and the frontend build will be hosted on aws s3. this is about the cheapest option.
+The idea is that the backend will be run on separate server and the frontend build will be hosted on aws s3.
 
 > Written with [StackEdit](https://stackedit.io/).

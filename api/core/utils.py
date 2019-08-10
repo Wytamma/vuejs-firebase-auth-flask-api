@@ -1,4 +1,3 @@
-from zappa.async import task
 from core.logging import logger
 from gmail import GMail, Message
 from config._passwords import EMAIL_PASSWORD, EMAIL_ADDRESS
@@ -7,7 +6,6 @@ from config._passwords import EMAIL_PASSWORD, EMAIL_ADDRESS
 # Set up emailer
 gmail = GMail(EMAIL_ADDRESS, EMAIL_PASSWORD)
 
-@task
 def email(email, subject, body, html=None):
     """ Sends email """
     logger.info(
