@@ -6,9 +6,7 @@ name = "pypi"
 
 [packages]
 
-zappa = "*"
+flask = "*"
 gmail = "*"
 firebase-admin = "*"
-flask-cors
-
-[dev-packages]
+flask-cors = "*"
