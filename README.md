@@ -1,5 +1,5 @@
 # vuejs-firebase-auth-flask-api
-I extended Anas Mammeri's vue.js/firebase tutorial [Vue 2 + Firebase: How to build a Vue app with Firebase authentication system in 15 minutes](https://medium.com/@anas.mammeri/vue-2-firebase-how-to-build-a-vue-app-with-firebase-authentication-system-in-15-minutes-fdce6f289c3c) to include a flask backend. clone this repo to get new ideas off the ground quicker.
+I extended Anas Mammeri's vue.js/firebase tutorial [Vue 2 + Firebase: How to build a Vue app with Firebase authentication system in 15 minutes](https://medium.com/@anas.mammeri/vue-2-firebase-how-to-build-a-vue-app-with-firebase-authentication-system-in-15-minutes-fdce6f289c3c) to include a flask backend. Clone this repo to get new ideas off the ground quicker.
 
 ## setup /api
 Replace missing configs:
